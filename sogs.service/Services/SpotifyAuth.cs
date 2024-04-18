@@ -3,10 +3,11 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using RestSharp;
 using sogs.domain.Domains;
+using sogs.service.Interfaces;
 
 namespace sogs.service.Services
 {
-    public class SpotifyAuth
+    public class SpotifyAuth : ISpotifyAuth
     {
         private string clientId;
         private string clientSecret;
