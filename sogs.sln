@@ -1,12 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sogs.controller", "sogs.controller\sogs.controller.csproj", "{86012740-C71C-4897-BF3C-6C74FFAE598E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sogs.api", "sogs.api\sogs.api.csproj", "{86012740-C71C-4897-BF3C-6C74FFAE598E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sogs.repository", "sogs.repository\sogs.repository.csproj", "{82BEC5AD-A649-4290-8679-F214433FD40F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sogs.service", "sogs.service\sogs.service.csproj", "{748EF3C0-0742-4B0D-87B1-B1496FDD64D6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sogs.domain", "sogs.domain\sogs.domain.csproj", "{92669850-0D67-4E40-8E8B-F6670EF68168}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sogs.tests", "sogs.tests\sogs.tests.csproj", "{E59410FE-794F-4B6D-9C8E-5E08250DCBFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +32,9 @@ Global
 		{92669850-0D67-4E40-8E8B-F6670EF68168}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92669850-0D67-4E40-8E8B-F6670EF68168}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92669850-0D67-4E40-8E8B-F6670EF68168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E59410FE-794F-4B6D-9C8E-5E08250DCBFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E59410FE-794F-4B6D-9C8E-5E08250DCBFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E59410FE-794F-4B6D-9C8E-5E08250DCBFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E59410FE-794F-4B6D-9C8E-5E08250DCBFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
